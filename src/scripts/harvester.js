@@ -26,7 +26,7 @@ export const harvestPlants = (plan) => {
     //     return seeds
 
 
-console.log(seeds)
+
 // array.forEach(element => {
     
 // });
