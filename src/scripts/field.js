@@ -1,12 +1,12 @@
-import { yearlyPlan } from "./main.js";
+// import { yearlyPlan } from "./main.js";
 
 let fieldArray = []
 
 export const addPlant = (seed) => {
 
     if (Array.isArray(seed)) {
-        yearlyPlan.forEach(seed => {
-            fieldArray.push(seed) 
+        seed.forEach(corn => {
+            fieldArray.push(corn) 
         });
     } else {
         fieldArray.push(seed)
@@ -14,6 +14,8 @@ export const addPlant = (seed) => {
     return fieldArray
 
 }
+
+
 
 
 export const usePlants = () => {
