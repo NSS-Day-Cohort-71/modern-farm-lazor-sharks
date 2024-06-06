@@ -1,4 +1,4 @@
-// import { yearlyPlan } from "./main.js";
+
 
 let fieldArray = []
 
@@ -20,20 +20,6 @@ export const addPlant = (seed) => {
 
 export const usePlants = () => {
 
-    return fieldArray.slice()
+    return fieldArray.map(plant => ({ ...plant }));
     
 }
-
-
-
-// export const usePlants = () => {
-
-//     let newPlan = fieldArray.slice();
-
-//     yearlyPlan.map(seed => {
-//         newPlan.push(seed);
-//     });
-//     return newPlan
-// }
-// return usePlants
-

@@ -1,16 +1,12 @@
-export const createAsparagus = (seedType, plantHeight, plantOutput) => {
+export const createAsparagus = () => {
 
 
-//let seedId = 
-const plant = {
-    type: seedType,
-    height: plantHeight,
-    output: plantOutput
+return {
+    type: "Asparagus",
+    height: 24,
+    output: 4
 
 };
-//plant++}
-
-return plant
 
 
 }

@@ -1,8 +1,8 @@
-export const createWheat = (seedType, plantHeight, plantOutput) => {
+export const createWheat = () => {
     const plant = {
-        type: seedType,
-        height: plantHeight,
-        output: plantOutput
+        type: "Wheat",
+        height: 230,
+        output: 6
     };
     return plant
 }
