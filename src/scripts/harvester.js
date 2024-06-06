@@ -18,16 +18,3 @@ export const harvestPlants = (plan) => {
     } return seeds 
 }
 
-    // for (let index = 0; index < plan.output; index++) {
-    //     seeds.push(plan.output);
-        
-    // }
-    
-    //     return seeds
-
-
-
-// array.forEach(element => {
-    
-// });
-

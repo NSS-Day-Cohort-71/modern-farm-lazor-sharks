@@ -1,12 +1,12 @@
 
 
-export const createSoybean = (seedType, plantHeight, plantOutput) => {
+export const createSoybean = () => {
 
     // let seedId = seedId
     const plant = {
-        type: seedType,
-        height: plantHeight,
-        output: plantOutput
+        type: "Soybean",
+        height: 20,
+        output: 4
     };
     // plant++;
 

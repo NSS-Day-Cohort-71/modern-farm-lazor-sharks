@@ -1,12 +1,12 @@
 
 
-export const createSunflower = (seedType, plantHeight, plantOutput) => {
+export const createSunflower = () => {
 
     // let seedId = seedId
     const plant = {
-        type: seedType,
-        height: plantHeight,
-        output: plantOutput
+        type: "Sunflower",
+        height: 380,
+        output: 3
     };
     // plant++;
 

@@ -1,10 +1,10 @@
 
-export const createCorn = (seedType, plantHeight, plantOutput) => {
+export const createCorn = () => {
         let cornArray = []
         const plant = {
-            type: seedType,
-            height: plantHeight,
-            output: plantOutput
+            type: "Corn",
+            height: 180,
+            output: 6
         };
        
         cornArray.push(plant)
